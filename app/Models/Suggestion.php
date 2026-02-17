@@ -8,7 +8,8 @@ class Suggestion extends Model
 {
     protected $fillable = [
         'resource_name',
+        'email',
         'resource_description',
-        'resource_link',
+        'link',
     ];
 }

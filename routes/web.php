@@ -10,6 +10,4 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/resources', [ResourceController::class, 'index'])->name('resources.index');
-Route::get('/suggest-a-resource', function () {
-    return view('resource-suggestion');
-});
+Route::get('/suggest-a-resource', [ResourceController::class, 'suggest'])->name('resources.suggest');

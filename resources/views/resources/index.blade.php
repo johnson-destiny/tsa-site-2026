@@ -2,7 +2,7 @@
 @section('title', 'Search')
 
 @section('content')
-<div class="bg-[#FFB22E]/75 h-screen flex flex-col justify-center items-center z-5">
+<div class="bg-[#FFB22E]/75 flex flex-col justify-center items-center z-5 pt-32">
     @if (empty($resources) || $resources->isEmpty() || $query === "")
     <h1 class="text-2xl text-center ">No results found</h1>
     @else

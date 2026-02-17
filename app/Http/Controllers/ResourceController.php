@@ -17,4 +17,8 @@ class ResourceController extends Controller
 
         return view('resources.index', compact('resources', 'query'));
     }
+
+    public function suggest() {
+        return view('resources.suggest');
+    }
 }

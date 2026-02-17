@@ -3,9 +3,6 @@
 
 @section('content')
 
-
-<!-- style="background-image: url('{{ asset('images/background.jpg') }}');" -->
-<!-- bg-[#FFE5B8] -->
 <div class="">
     <div class="relative flex flex-col justify-start items-center bg-[#FFB22E]/75 w-full bg-cover bg-center z-5 pt-32">
         <div class="flex flex-col w-full lg:w-1/2 justify-center items-center mx-5 z-10">
