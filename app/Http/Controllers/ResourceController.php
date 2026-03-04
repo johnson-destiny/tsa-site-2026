@@ -11,9 +11,7 @@ class ResourceController extends Controller
     {
         $query = $request->input('query');
 
-        // TODO: Functionality behind searching the directory
-        // For the functionality, we'll just manually create records for a resource in the database
-        $resources = Resources::search($query)->simplePaginate(10);
+        $resources = Resources::search($query)->simplePaginate(9);
 
         return view('resources.index', compact('resources', 'query'));
     }

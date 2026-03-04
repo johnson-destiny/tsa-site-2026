@@ -1,5 +1,5 @@
 <div class="bg-[#FFD48A] text-[#472D00] py-5 shadow-lg">
-    <div class="flex mx-20">
+    <div class="flex px-5 mx-auto max-w-7xl">
         <div class="bg-white/35 shadow-lg rounded-l-xl flex flex-col h-auto w-auto">
             <h1 class="text-2xl font-medium pt-5 px-5 text-start ">Featured Resources</h1>
             <button wire:click="findRecords('grants')" class="{{ $selected === 'grants' ? 'bg-[#FF4A2E]/50' : '' }} text-xl font-medium py-3 hover:bg-[#FF4A2E]/30 px-5 text-start wobble transition-transform duration-300 ease-in-out hover:scale-110">Grants</button>
@@ -11,7 +11,8 @@
 
         <div class="w-full grid grid-cols-1 lg:grid-cols-3 bg-white/75 items-center gap-3 px-3 shadow-lg">
             @if ($selected === '' || $selected === null)
-            <h1 class="text-center col-span-3 text-3xl w-full">Click a category to view featured resources!</h1>
+            <h1 class="text-center col-span-3 text-3xl w-full"></h1>
+{{--                Click a category to view featured resources!--}}
             @endif
 
             @if (!empty($selected) && $resources->isEmpty())
