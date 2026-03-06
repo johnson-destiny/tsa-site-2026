@@ -7,8 +7,30 @@
         <p class="text-center">The theme seen on this site made with Laravel, Blade, and TailwindCSS was built with ❤️ by this team.</p>
         <p class="my-3 text-center">All packages were installed by our team and do not provide any generation services. </p>
 
+        <h1 class="self-start mt-3 text-2xl font-bold">Documents</h1>
+        <a target="_blank" href="https://bit.ly/4b8DRct" class="flex flex-col   items-start w-full shadow-lg rounded bg-[#FFD48A] py-3 px-3 space-x-2 mt-3">
+            <h1 class="text-2xl font-medium">Work Log</h1>
+            <div class="flex flex-col">
+                <p class="">PDF TSA Work Log</p>
+                <p class="font-extrabold py-3">https://bit.ly/4b8DRct</p>
+            </div>
+        </a>
+        <a target="_blank" href="https://bit.ly/40Pr75E" class="flex flex-col items-start w-full shadow-lg rounded bg-[#FFD48A] py-3 px-3 space-x-2 mt-3">
+            <h1 class="text-2xl font-medium">Directory Resources</h1>
+            <div class="flex flex-col">
+                <p class="">PDF Document of All Resources in the Directory</p>
+                <p class="font-extrabold py-3">https://bit.ly/40Pr75E</p>
+            </div>
+        </a>
+        <a target="_blank" href="https://bit.ly/3OQ11wN" class="flex flex-col   items-start w-full shadow-lg rounded bg-[#FFD48A] py-3 px-3 space-x-2 mt-3">
+            <h1 class="text-2xl font-medium">Copyright Checklist</h1>
+            <div class="flex flex-col">
+                <p class="">PDF TSA Copyright Checklist</p>
+                <p class="font-extrabold py-3">https://bit.ly/3OQ11wN</p>
+            </div>
+        </a>
         <h1 class="self-start mt-3 text-2xl font-bold">Frameworks</h1>
-        <a href="https://laravel.com/" class="flex flex-col   items-start w-full shadow-lg rounded bg-[#FFD48A] py-3 px-3 space-x-2 mt-3">
+        <a target="_blank" href="https://laravel.com/" class="flex flex-col   items-start w-full shadow-lg rounded bg-[#FFD48A] py-3 px-3 space-x-2 mt-3">
             <h1 class="text-2xl font-medium">Laravel:</h1>
             <div class="flex flex-col">
                 <p class="">This PHP-based framework helps bring all the features of the site together. Following the model-view-controller architecture (MVC), it contributes to a fast development process and is easy to maintain. </p>
@@ -16,7 +38,7 @@
             </div>
         </a>
 
-        <a href="https://laravel.com/" class="flex flex-col   items-start w-full shadow-lg rounded bg-[#FFD48A] py-3 px-3 space-x-2 mt-3">
+        <a target="_blank" href="https://laravel.com/" class="flex flex-col   items-start w-full shadow-lg rounded bg-[#FFD48A] py-3 px-3 space-x-2 mt-3">
             <h1 class="text-2xl font-medium">Blade:</h1>
             <div class="flex flex-col">
                 <p class="">Shipping with Laravel, Blade is a server-side system that helps developers to build dynamic web pages. It provides a mix of both HTML and PHP. </p>
@@ -24,7 +46,7 @@
             </div>
         </a>
 
-        <a href="https://tailwindcss.com/" class="flex flex-col   items-start w-full shadow-lg rounded bg-[#FFD48A] py-3 px-3 space-x-2 mt-3">
+        <a target="_blank" href="https://tailwindcss.com/" class="flex flex-col   items-start w-full shadow-lg rounded bg-[#FFD48A] py-3 px-3 space-x-2 mt-3">
             <h1 class="text-2xl font-medium">TailwindCSS:</h1>
             <div class="flex flex-col">
                 <p class="">TailwindCSS is a styling framework used to design web pages inside of HTML. </p>
@@ -33,7 +55,7 @@
         </a>
 
         <h1 class="self-start mt-10 text-2xl font-bold">Packages</h1>
-        <a href="https://typesense.org/docs/guide/reference-implementations/laravel-scout-integration.html" class="flex flex-col   items-start w-full shadow-lg rounded bg-[#FFD48A] py-3 px-3 space-x-2 mt-3">
+        <a target="_blank" href="https://typesense.org/docs/guide/reference-implementations/laravel-scout-integration.html" class="flex flex-col   items-start w-full shadow-lg rounded bg-[#FFD48A] py-3 px-3 space-x-2 mt-3">
             <h1 class="text-2xl font-medium">Laravel Scout + Typesense:</h1>
             <div class="flex flex-col w-auto">
                 <p class="">This is used to implement improved search functionality.  </p>
@@ -41,30 +63,37 @@
                 <p class="font-extrabold py-3">https://typesense.org/</p>
             </div>
         </a>
+        <a target="_blank" href="https://livewire.laravel.com/" class="flex flex-col   items-start w-full shadow-lg rounded bg-[#FFD48A] py-3 px-3 space-x-2 mt-3">
+            <h1 class="text-2xl font-medium">Livewire</h1>
+            <div class="flex flex-col w-auto">
+                <p class="">This is used to develop dynamic site components.</p>
+                <p class="font-extrabold py-3">https://livewire.laravel.com/</p>
+            </div>
+        </a>
 
         <h1 class="self-start mt-10 text-2xl font-bold">Infrastructure</h1>
-        <a href="https://www.squarespace.com" class="flex flex-col   items-start w-full shadow-lg rounded bg-[#FFD48A] py-3 px-3 space-x-2 mt-3">
+        <a target="_blank" href="https://www.squarespace.com" class="flex flex-col   items-start w-full shadow-lg rounded bg-[#FFD48A] py-3 px-3 space-x-2 mt-3">
             <h1 class="text-2xl font-medium">SquareSpace:</h1>
             <div class="flex flex-col w-auto">
                 <p class="">This is our domain registrar.</p>
                 <p class="font-extrabold py-3">https://www.squarespace.com</p>
             </div>
         </a>
-        <a href="https://www.digitalocean.com/" class="flex flex-col   items-start w-full shadow-lg rounded bg-[#FFD48A] py-3 px-3 space-x-2 mt-3">
+        <a target="_blank" href="https://www.digitalocean.com/" class="flex flex-col   items-start w-full shadow-lg rounded bg-[#FFD48A] py-3 px-3 space-x-2 mt-3">
             <h1 class="text-2xl font-medium">DigitalOcean:</h1>
             <div class="flex flex-col w-auto">
                 <p class="">This hosts our site's server.</p>
                 <p class="font-extrabold py-3">https://www.digitalocean.com/</p>
             </div>
         </a>
-        <a href="https://www.mysql.com/" class="flex flex-col   items-start w-full shadow-lg rounded bg-[#FFD48A] py-3 px-3 space-x-2 mt-3">
+        <a target="_blank" href="https://www.mysql.com/" class="flex flex-col   items-start w-full shadow-lg rounded bg-[#FFD48A] py-3 px-3 space-x-2 mt-3">
             <h1 class="text-2xl font-medium">MySQL</h1>
             <div class="flex flex-col w-auto">
                 <p class="">This serves as our database management system.</p>
                 <p class="font-extrabold py-3">https://www.mysql.com/</p>
             </div>
         </a>
-        <a href="https://github.com/johnson-destiny/tsa-site-2026" class="flex flex-col   items-start w-full shadow-lg rounded bg-[#FFD48A] py-3 px-3 space-x-2 mt-3">
+        <a target="_blank" href="https://github.com/johnson-destiny/tsa-site-2026" class="flex flex-col   items-start w-full shadow-lg rounded bg-[#FFD48A] py-3 px-3 space-x-2 mt-3">
             <h1 class="text-2xl font-medium">GitHub</h1>
             <div class="flex flex-col w-auto">
                 <p class="">This is used for version control.</p>
@@ -72,6 +101,38 @@
             </div>
         </a>
 
+
+        <a target="_blank" href="https://letsencrypt.org/" class="flex flex-col   items-start w-full shadow-lg rounded bg-[#FFD48A] py-3 px-3 space-x-2 mt-3">
+            <h1 class="text-2xl font-medium">LetsEncrypt</h1>
+            <div class="flex flex-col w-auto">
+                <p class="">This provides our SSL certificate.</p>
+                <p class="font-extrabold py-3">https://letsencrypt.org/</p>
+            </div>
+        </a>
+
+        <a target="_blank" href="https://nginx.org/" class="flex flex-col   items-start w-full shadow-lg rounded bg-[#FFD48A] py-3 px-3 space-x-2 mt-3">
+            <h1 class="text-2xl font-medium">Nginx</h1>
+            <div class="flex flex-col w-auto">
+                <p class="">This serves as our HTTP web server.</p>
+                <p class="font-extrabold py-3">https://nginx.org/</p>
+            </div>
+        </a>
+
+        <a target="_blank" href="https://vite.dev/" class="flex flex-col   items-start w-full shadow-lg rounded bg-[#FFD48A] py-3 px-3 space-x-2 mt-3">
+            <h1 class="text-2xl font-medium">Vite</h1>
+            <div class="flex flex-col w-auto">
+                <p class="">This serves as our frontend build tool.</p>
+                <p class="font-extrabold py-3">https://vite.dev/</p>
+            </div>
+        </a>
+
+        <a target="_blank" href="https://getcomposer.org/" class="flex flex-col   items-start w-full shadow-lg rounded bg-[#FFD48A] py-3 px-3 space-x-2 mt-3">
+            <h1 class="text-2xl font-medium">Composer</h1>
+            <div class="flex flex-col w-auto">
+                <p class="">This is our PHP package manager.</p>
+                <p class="font-extrabold py-3">https://getcomposer.org/</p>
+            </div>
+        </a>
 
     </div>
 @endsection

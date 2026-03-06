@@ -13,15 +13,22 @@ class SuggestionForm extends Component
     public $resourceLink = '';
 
     public function save() {
+        $validated = $this->validate( [
+            'resourceName' => 'required|min:3|max:255',
+            'resourceDescription' => 'required|min:10|max:255',
+            'email' => 'required|email',
+            'resourceLink' => 'required|url',
+        ]);
+
         Suggestion::create([
-            'resource_name' => $this->resourceName,
-                'resource_description' => $this->resourceDescription,
-                'email' => $this->email,
-                'link' => $this->resourceLink,
+            'resource_name' => $validated['resourceName'],
+                'resource_description' => $validated['resourceDescription'],
+                'email' => $validated['email'],
+                'link' => $validated['resourceLink'],
                 ]
         );
-
         session()->flash('status', 'Your suggestion has been submitted! Thank you!');
+        $this->redirect('/suggest-a-resource');
     }
     public function render()
     {

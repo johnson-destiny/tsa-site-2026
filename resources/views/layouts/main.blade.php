@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>@yield('title')- Resource Directory</title>
+    <title>@yield('title')- Central Find</title>
     @vite('resources/css/app.css')
     @livewireStyles
     <meta name="viewport" content="width=device-width">
@@ -14,7 +14,7 @@
                 <a href="{{ route('home') }}" class="font-extrabold py-2">Central Find</a>
                 <div class="flex flex-row space-x-3 md:space-x-10">
                     <a href="{{ route('resources.suggest') }}" class="rounded-2xl bg-[#FF4A2E] text-white px-3 py-2">Suggest a Resource</a>
-                    <a href="{{ route('resources.index') }}" class="py-2">View Resources</a>
+                    <a href="{{ route('resources.index', ['query' => '']) }}" class="py-2">View Resources</a>
                     <a href="{{ route('sources.index') }}" class="py-2">References</a>
                 </div>
 

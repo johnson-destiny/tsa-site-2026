@@ -11,9 +11,18 @@ class ResourceController extends Controller
     {
         $query = $request->input('query');
 
+        $validated=$request->validate([
+            'query'=>'nullable|min:3|string|max:100',
+        ]);
+
         $resources = Resources::search($query)->simplePaginate(9);
 
         return view('resources.index', compact('resources', 'query'));
+    }
+
+    public function show($id) {
+        $resource = Resources::find($id);
+        return view('resources.show', compact('resource'));
     }
 
     public function suggest() {

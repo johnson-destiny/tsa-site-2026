@@ -12,4 +12,5 @@ Route::get('/', function () {
 
 Route::get('/sources', [SourceController::class, 'index'])->name('sources.index');
 Route::get('/resources', [ResourceController::class, 'index'])->name('resources.index');
+Route::get('/resources/{resource}', [ResourceController::class, 'show'])->name('resources.show');
 Route::get('/suggest-a-resource', [ResourceController::class, 'suggest'])->name('resources.suggest');

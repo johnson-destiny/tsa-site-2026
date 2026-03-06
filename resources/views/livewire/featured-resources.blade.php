@@ -1,4 +1,4 @@
-<div class="bg-[#FFD48A] text-[#472D00] py-5 shadow-lg">
+<div class="bg-[#FFD48A] text-[#472D00] py-10 shadow-lg">
     <div class="flex px-5 mx-auto max-w-7xl">
         <div class="bg-white/35 shadow-lg rounded-l-xl flex flex-col h-auto w-auto">
             <h1 class="text-2xl font-medium pt-5 px-5 text-start ">Featured Resources</h1>
@@ -20,13 +20,19 @@
             @endif
 
             @foreach($resources as $resource)
-            <a target="_blank" href="{{ $resource->link }}">
+            <a target="_blank" href="{{ route('resources.show', $resource->id) }}">
                 <div class="shadow-2xl mt-4 mb-4 rounded-lg flex w-auto flex-col flex-1 h-64 items-center justify-center bg-[#2E7BFF]/30 transition-transform duration-300 ease-in-out hover:scale-110">
                     <h1 class="text-md lg:text-2xl text-[#472D00] font-bold text-center py-5">{{ $resource->title }} </h1>
 {{--                    <p class="text-[#472D00] w-full text-sm lg:text-base text-center lg:line-clamp-none">{{ $resource->description }}</p>--}}
                 </div>
             </a>
+
             @endforeach
+
+            @if(!empty($selected))
+                    <a class="text-xs py-1 text-center md:text-base mb-3 rounded-2xl bg-[#FF4A2E] text-white font-bold px-3 md:py-2 col-span-full justify-self-center" href="{{ route('resources.index', ['query' => $selected]) }}">Filter database for resources in this category</a>
+            @endif
+
         </div>
     </div>
 

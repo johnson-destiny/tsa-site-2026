@@ -10,12 +10,11 @@
 
         <h1 class="text-2xl col-span-full text-center">Results for "{{ $query }}"</h1>
         @foreach($resources as $resource)
-        <a target="_blank" href="{{ $resource->link }}">
+        <a target="_blank" href="{{ route('resources.show', $resource->id) }}">
             <div class="shadow-2xl rounded-lg flex flex-col items-center bg-white/75
             transition-transform duration-300 ease-in-out hover:scale-105
-            w-full sm:w-auto md:h-64 lg:w-64 lg:h-96 p-4 items-center">
+            w-full sm:w-auto md:h-64 lg:w-64 lg:h-64 p-4 justify-center">
                 <h1 class="lg:text-2xl line-clamp-4 md:line-clamp-none text-sm md:text-sm text-[#472D00] font-bold text-center py-5">{{ $resource->title }} </h1>
-                <p class="text-[#472D00] hidden lg:line-clamp-none md:text-sm md:px-3 md:block lg:text-sm text-center"> {{ $resource->description }} </p>
             </div>
         </a>
         @endforeach
